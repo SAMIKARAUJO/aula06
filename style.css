@@ -1,0 +1,122 @@
+.caixa1{
+    background-color: red;
+    margin-bottom: 5px;
+    padding: 5px;
+    min-height: 300px;
+
+}
+
+.caixa2{
+    background-color: green;
+    padding: 5px;
+    font-size: 35px; 
+    display: flex;
+    /* Justify content serve para alinhar o conteúdo da div na horizontal */
+    justify-content: center;
+    /* Aling items serve para alinhar os itens na vertical */
+    align-items: center;
+    /* gap é o espaço entre os itens */
+    gap: 20px;
+    /* flex direction column fala que os itens vao ficar um abaixo do outro */
+    flex-direction: column;
+    /* flex wrap serve para os itens se adaptarem ao tamanho da tela */
+    flex-wrap: wrap;
+}
+
+
+
+.caixa1{
+    background-color: red;
+    margin-bottom: 5px;
+    padding: 5px;
+    min-height: 300px;
+
+}
+
+.caixa2{
+    background-color: green;
+    padding: 5px;
+    font-size: 35px; 
+    color: white;
+    background-image: url("https://abstartups.com.br/wp-content/uploads/2018/10/Qual-a-tecnologia.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive';
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logo{
+    max-width: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://s5.static.brasilescola.uol.com.br/be/2023/03/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Pacifico";
+    color: #1b1833;
+}
+.informacoes h1{
+    font-size: 36px;
+}
+
+.informacoes p{
+    font-family: "Rubik Bubbles";
+    font-size: 48px;
+}
+
+.informacoes button{
+    font-family: "Pacifico";
+    background-color: #1b1833;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.informacoes button:hover{
+    transform: scale(1.1);
+}
